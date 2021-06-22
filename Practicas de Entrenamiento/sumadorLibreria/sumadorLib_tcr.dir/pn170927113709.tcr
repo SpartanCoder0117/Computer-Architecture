@@ -1,0 +1,14 @@
+#Start recording tcl command: 9/27/2017 11:22:22
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria; Project name: sumadorLib
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.ldf"
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 9/27/2017 11:37:09

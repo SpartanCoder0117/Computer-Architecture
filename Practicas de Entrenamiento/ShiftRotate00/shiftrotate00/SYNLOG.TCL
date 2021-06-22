@@ -1,0 +1,1 @@
+run_tcl -fg shiftrotate00_shiftrotate00_synplify.tcl

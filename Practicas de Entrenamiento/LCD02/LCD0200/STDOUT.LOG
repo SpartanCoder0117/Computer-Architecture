@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    ALLECTO
+Date:        Tue Jun 12 19:13:23 2018
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch lcd0200_lcd0200_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Tue Jun 12 19:13:31 2018
+
+Return Code: 0
+Run Time:00h:00m:05s
+Copied G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srr to G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srf
+log file: "G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srr"
+Running: lcd0200 in foreground
+
+Running proj_1|lcd0200
+
+Running: compile (Compile) on proj_1|lcd0200
+# Tue Jun 12 19:13:33 2018
+
+Running: compile_flow (Compile Process) on proj_1|lcd0200
+# Tue Jun 12 19:13:33 2018
+
+Running: compiler (Compile Input) on proj_1|lcd0200
+# Tue Jun 12 19:13:33 2018
+Copied G:\Practicas de Entrenamiento\lcd02\lcd0200\synwork\lcd0200_lcd0200_comp.srs to G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srs
+
+compiler completed
+# Tue Jun 12 19:13:47 2018
+
+Return Code: 0
+Run Time:00h:00m:14s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|lcd0200
+# Tue Jun 12 19:13:47 2018
+
+multi_srs_gen completed
+# Tue Jun 12 19:13:48 2018
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied G:\Practicas de Entrenamiento\lcd02\lcd0200\synwork\lcd0200_lcd0200_mult.srs to G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srs
+Copied G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srr to G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srf
+Complete: Compile Process on proj_1|lcd0200
+
+Running: premap (Pre-mapping) on proj_1|lcd0200
+# Tue Jun 12 19:13:49 2018
+
+premap completed with warnings
+# Tue Jun 12 19:13:59 2018
+
+Return Code: 1
+Run Time:00h:00m:10s
+Complete: Compile on proj_1|lcd0200
+
+Running: map (Map) on proj_1|lcd0200
+# Tue Jun 12 19:13:59 2018
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|lcd0200
+# Tue Jun 12 19:13:59 2018
+Copied G:\Practicas de Entrenamiento\lcd02\lcd0200\synwork\lcd0200_lcd0200_m.srm to G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srm
+
+fpga_mapper completed with warnings
+# Tue Jun 12 19:14:14 2018
+
+Return Code: 1
+Run Time:00h:00m:15s
+Complete: Map on proj_1|lcd0200
+Copied G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srr to G:\Practicas de Entrenamiento\lcd02\lcd0200\lcd0200_lcd0200.srf
+Complete: Logic Synthesis on proj_1|lcd0200
+TCL script complete: "lcd0200_lcd0200_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+G:\Practicas de Entrenamiento\lcd02\lcd0200\proj_1.prj
+batch mode default:no

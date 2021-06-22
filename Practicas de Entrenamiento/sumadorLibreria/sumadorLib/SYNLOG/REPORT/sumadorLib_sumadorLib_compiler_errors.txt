@@ -1,0 +1,2 @@
+@E: CD297 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":22:4:22:6|Width mismatch, location has width 5, value 4
+

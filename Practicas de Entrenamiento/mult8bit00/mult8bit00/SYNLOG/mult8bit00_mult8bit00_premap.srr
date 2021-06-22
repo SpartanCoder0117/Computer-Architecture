@@ -1,0 +1,70 @@
+# Thu Sep 28 19:23:02 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bit00\mult8bit00\mult8bit00_mult8bit00_scck.rpt 
+Printing clock  summary report in "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bit00\mult8bit00\mult8bit00_mult8bit00_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_0(ha0)) of type view:work.and00_64_0(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_14(ha0)) of type view:work.and00_0_13(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_15(ha0)) of type view:work.and00_0_16(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_31(ha0)) of type view:work.and00_0_32(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_47(ha0)) of type view:work.and00_0_48(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_63(ha0)) of type view:work.and00_0_64(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_79(ha0)) of type view:work.and00_0_80(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_95(ha0)) of type view:work.and00_0_96(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\fa00.vhdl":26:1:26:3|Removing instance O00 (in view: work.fa00_25(fa0)) of type view:work.or00_30(or0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_60(ha0)) of type view:work.and00_0_59(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\mult8bit00\ha00.vhdl":17:1:17:3|Removing instance A00 (in view: work.ha00_1_59(ha0)) of type view:work.and00_0_60(and0) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topmult8bit00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock     Clock
+Clock     Frequency     Period        Type      Group     Load 
+---------------------------------------------------------------
+===============================================================
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 145MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 28 19:23:02 2017
+
+###########################################################]

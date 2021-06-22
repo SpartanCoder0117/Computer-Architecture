@@ -1,0 +1,2 @@
+@E: CD752 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\word00\contring00.vhdl":27:15:27:22|Index 7 is out of range: [3 downto 0]
+

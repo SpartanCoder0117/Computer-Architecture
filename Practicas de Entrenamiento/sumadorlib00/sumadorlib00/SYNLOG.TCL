@@ -1,0 +1,1 @@
+run_tcl -fg sumadorlib00_sumadorlib00_synplify.tcl

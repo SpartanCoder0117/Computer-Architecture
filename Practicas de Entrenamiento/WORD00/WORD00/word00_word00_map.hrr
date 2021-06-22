@@ -1,0 +1,40 @@
+---------------------------------------------------
+Report for cell topword00
+   Instance path: topword00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00        100.0
+                                  LUT4	      16.00        100.0
+                                 IOBUF	         17        100.0
+                                PFUREG	         23        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           toposcdiv00	          1        95.0
+---------------------------------------------------
+Report for cell toposcdiv00
+   Instance path: topword00/W00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.00        95.0
+                                  LUT4	      14.00        87.5
+                                PFUREG	         23        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        95.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: topword00/W00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.00        95.0
+                                  LUT4	      14.00        87.5
+                                PFUREG	         23        100.0
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topword00/W00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

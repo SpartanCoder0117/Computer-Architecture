@@ -1,0 +1,358 @@
+
+synpwrap -msg -prj "generic01_generic01_synplify.tcl" -log "generic01_generic01.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.10.0.111.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of generic01_generic01.srf
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-A2P6QV0
+
+# Mon Dec  4 23:06:24 2017
+
+#Implementation: generic01
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl":9:7:9:18|Top entity is set to topgeneric01.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\osc00.vhdl changed - recompiling
+File C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\multg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\uc00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\packagegeneric01.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\packagediv00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\toposc00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\and00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\or00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\packageha00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xor00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\ha00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xnor00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\packagefa00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\fa00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bitvhdl\packagemult4bit00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\packageadder00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bitvhdl\topmult4bit00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\topadder8bit00.vhdl changed - recompiling
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl changed - recompiling
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl":9:7:9:18|Synthesizing work.topgeneric01.topgeneric0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\multg00.vhdl":8:7:8:13|Synthesizing work.multg00.multg0.
+Post processing for work.multg00.multg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\multg00.vhdl":26:4:26:5|Pruning unused register outFlagmult_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bitvhdl\topmult4bit00.vhdl":8:7:8:19|Synthesizing work.topmult8bit00.topmult8bit0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\ha00.vhdl":8:7:8:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Post processing for work.ha00.ha0
+Post processing for work.fa00.fa0
+Post processing for work.topmult8bit00.topmult8bit0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":8:7:8:12|Synthesizing work.notg00.notg0.
+Post processing for work.notg00.notg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Pruning unused register outFlagnot_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":8:7:8:13|Synthesizing work.xnorg00.xnorg0.
+Post processing for work.xnorg00.xnorg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Pruning unused register outFlagxnor_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":8:7:8:12|Synthesizing work.norg00.norg0.
+Post processing for work.norg00.norg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Pruning unused register outFlagnor_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":8:7:8:13|Synthesizing work.nandg00.nandg0.
+Post processing for work.nandg00.nandg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":8:7:8:11|Synthesizing work.org00.org0.
+Post processing for work.org00.org0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Pruning unused register outFlago_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\uc00.vhdl":8:7:8:10|Synthesizing work.uc00.uc0.
+Post processing for work.uc00.uc0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl":8:7:8:14|Synthesizing work.substg00.substg0.
+Post processing for work.substg00.substg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl":26:4:26:5|Pruning unused register outFlagsub_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl":8:7:8:12|Synthesizing work.addg00.addg0.
+Post processing for work.addg00.addg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl":26:4:26:5|Pruning unused register outFlagadd_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":7:7:7:20|Synthesizing work.topadder8bit00.topadder8bit0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Post processing for work.topadder8bit00.topadder8bit0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":8:7:8:12|Synthesizing work.xorg00.xorg0.
+Post processing for work.xorg00.xorg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":8:7:8:12|Synthesizing work.andg00.andg0.
+Post processing for work.andg00.andg0
+@W: CL169 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Pruning unused register outFlaga_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topgeneric01.topgeneric0
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl":26:4:26:5|Register bit outSL is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl":26:4:26:5|Register bit outSLsub is always 1.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(15) is always 0.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 82MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  4 23:06:24 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\generic01\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  4 23:06:25 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  4 23:06:25 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\generic01\synwork\generic01_generic01_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  4 23:06:26 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Dec  4 23:06:26 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\generic01\generic01_generic01_scck.rpt 
+Printing clock  summary report in "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\generic01\generic01_generic01_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 115MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_1 (in view: work.topadder8bit00(topadder8bit0)) on net So_1 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_2 (in view: work.topadder8bit00(topadder8bit0)) on net So_2 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_3 (in view: work.topadder8bit00(topadder8bit0)) on net So_3 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_4 (in view: work.topadder8bit00(topadder8bit0)) on net So_4 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_5 (in view: work.topadder8bit00(topadder8bit0)) on net So_5 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_6 (in view: work.topadder8bit00(topadder8bit0)) on net So_6 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_7 (in view: work.topadder8bit00(topadder8bit0)) on net So_7 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_8 (in view: work.topadder8bit00(topadder8bit0)) on net So_8 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_0(ha0)) of type view:work.and00_72_0(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_30(ha0)) of type view:work.and00_0_29(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_31(ha0)) of type view:work.and00_0_32(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_47(ha0)) of type view:work.and00_0_48(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_63(ha0)) of type view:work.and00_0_64(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_79(ha0)) of type view:work.and00_0_80(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_95(ha0)) of type view:work.and00_0_96(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_111(ha0)) of type view:work.and00_0_112(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\fa00.vhdl":32:1:32:3|Removing instance F02 (in view: work.fa00_33(fa0)) of type view:work.or00_38(or0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_76(ha0)) of type view:work.and00_0_75(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\ha00.vhdl":19:1:19:3|Removing instance H00 (in view: work.ha00_1_75(ha0)) of type view:work.and00_0_76(and0) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topgeneric01
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     23   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     319  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\toposc00\div00.vhdl":22:1:22:2|Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including G00.D01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 150MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 150MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 150MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 150MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Dec  4 23:06:27 2017
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Dec  4 23:06:27 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_1 (in view: work.topadder8bit00(topadder8bit0)) on net So_1 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_2 (in view: work.topadder8bit00(topadder8bit0)) on net So_2 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_3 (in view: work.topadder8bit00(topadder8bit0)) on net So_3 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_4 (in view: work.topadder8bit00(topadder8bit0)) on net So_4 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_5 (in view: work.topadder8bit00(topadder8bit0)) on net So_5 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_6 (in view: work.topadder8bit00(topadder8bit0)) on net So_6 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_7 (in view: work.topadder8bit00(topadder8bit0)) on net So_7 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+@N: MO111 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":12:1:12:3|Tristate driver So_8 (in view: work.topadder8bit00(topadder8bit0)) on net So_8 (in view: work.topadder8bit00(topadder8bit0)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@A: BN321 |Found multiple drivers on net sadd[0] (in view: work.topgeneric01(topgeneric0)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net sadd[0] (in view: work.topgeneric01(topgeneric0)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:So[0] inst:G03 of work.topadder8bit00(topadder8bit0)
+Connection 2: Direction is (Output ) pin:Rm8[0] inst:G12 of work.topmult8bit00(topmult8bit0)
+@E: BN314 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\generic01\topgeneric01.vhdl":9:7:9:18|Net sadd[0] (in view: work.topgeneric01(topgeneric0)) has multiple drivers 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Dec  4 23:06:28 2017
+
+###########################################################]
+
+
+Synthesis exit by 9.

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lcd0200" device="LCMXO2-7000HE-5TG144C" default_implementation="lcd0200">
+    <Options/>
+    <Implementation title="lcd0200" dir="lcd0200" description="lcd0200" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topram00"/>
+        <Source name="../lcd02vhdl/div00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/osc00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/packcagediv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/toposc00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/lcdcontconfig00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/lcdconfig00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/lcdmux00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/contring00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/coder00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/muxra00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="muxra00"/>
+        </Source>
+        <Source name="../lcd02vhdl/packageram00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd02vhdl/topram00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="topram00"/>
+        </Source>
+        <Source name="lcd0200.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="lcd0200/lcd0200.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lcd02001.sty"/>
+</BaliProject>

@@ -1,0 +1,24 @@
+timestamp=1503448718063
+
+[~A]
+ModifyID=1
+Version=74
+
+[compuertas00]
+A/compuertas0=21|./../../compuertas00.vhdl|15|1*0
+BinI32/compuertas0=3*0
+I=0*663
+I/compuertas0=0*1440
+M=11|0|vd0|1503448717363|./../../compuertas00.vhdl|0*212*0xb0f47883f3160755145a21e65b5e528ed3acda76|0*572*0x23b75c12e3e89f2ef000564498faa8c2
+M/compuertas0=21|0|vd0|1503448717365|./../../compuertas00.vhdl|0*908*0x957958373d83eced01c5ac85ee312712e3ff09fa|0*1334*0x9065d32a2e40e13794b29a2731812845
+R=./../../compuertas00.vhdl|6
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|8cb863ae67648be3af3d57bc68247aba9c22ef8c7e87bea573f73eb319548c60aed6ede42a74c88a7bfa472fadc229fe
+Version/compuertas0=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|385be2310b18b182acd6a765fdabb5fef7c5a3c88bee19c71eb6ced9c1da98930f9e213bf48ee1ed79332f6cbe5f3945
+
+[~MFT]
+0=7|0work.mgf|1440|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+compuertas00=11|0*0|

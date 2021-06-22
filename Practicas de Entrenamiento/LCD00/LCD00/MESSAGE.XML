@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>L00/D00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>L00/D00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD434 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:30:19:30:25|Signal clklcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Dynamic>
+            <Navigation>CD434</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>Signal clklcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD434 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:30:28:30:36|Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Dynamic>
+            <Navigation>CD434</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:30:11:30:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:51:12:51:16|Referenced variable enddm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Referenced variable enddm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:50:12:50:15|Referenced variable rsdm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>50</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Referenced variable rsdm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:49:12:49:15|Referenced variable rwdm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Referenced variable rwdm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:45:12:45:15|Referenced variable encm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Referenced variable encm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:44:12:44:15|Referenced variable rscm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Referenced variable rscm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:43:12:43:15|Referenced variable rwcm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Referenced variable rwcm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:40:9:40:16|Referenced variable inflagcm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Referenced variable inflagcm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl&quot;:33:8:33:16|Referenced variable resetlcdm is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Referenced variable resetlcdm is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl&quot;:25:3:25:4|Removing register 'RSc' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing register 'RSc' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl&quot;:25:3:25:4|Removing register 'RWc' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing register 'RWc' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl&quot;:25:3:25:4|Pruning register bits 7 to 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\toposc00\div00.vhdl&quot;:22:1:22:2|Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including L00.D01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\toposc00\div00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including L00.D01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\lcd00\lcddata00.vhdl&quot;:53:21:53:28|ROM outworddata_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\lcd00\lcddata00.vhdl</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>ROM outworddata_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\lcd00\lcddata00.vhdl&quot;:53:21:53:28|ROM outworddata_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\lcd00\lcddata00.vhdl</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>ROM outworddata_2[6:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:L00.D00.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:L00.D00.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

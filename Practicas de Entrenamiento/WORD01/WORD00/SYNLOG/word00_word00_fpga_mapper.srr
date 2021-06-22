@@ -1,0 +1,367 @@
+# Wed Sep 13 10:48:09 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_ret[3] (in view: ScratchLib.cell24(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_ret[1] (in view: ScratchLib.cell24(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_ret[2] (in view: ScratchLib.cell24(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_ret[0] (in view: ScratchLib.cell24(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_0_ret[3] (in view: ScratchLib.cell30(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_0_ret[2] (in view: ScratchLib.cell30(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_0_ret[1] (in view: ScratchLib.cell30(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_1_ret[2] (in view: ScratchLib.cell42(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_1_ret[1] (in view: ScratchLib.cell42(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr_1[2] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_1[2] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr_1[1] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_1[1] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr_0[1] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_0[1] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr_0[3] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_0[3] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr_0[2] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr_0[2] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr[0] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr[0] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr[1] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr[1] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr[2] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr[2] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Removing sequential instance W01.outr[3] (in view: work.topword00(behavior)) because it does not drive other instances.
+@A: BN291 :"c:\users\alejandro\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\word00vhdl\contring00.vhdl":21:1:21:2|Boundary register W01.outr[3] (in view: work.topword00(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   985.39ns		  58 /        35
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+@N: MT611 :|Automatically generated clock osc00|osc_int_inferred_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock div00|outdiv_derived_clock has lost its master clock osc00|osc_int_inferred_clock and is being removed
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 39 clock pin(s) of sequential element(s)
+0 instances converted, 39 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance      Explanation                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       W00.D00.OSCInst0     OSCH                   39         W02.outr_0_ret_2     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 145MB)
+
+Writing Analyst data base C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\word01\word00\synwork\word00_word00_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\word01\word00\word00_word00.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 148MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Sep 13 10:48:10 2017
+#
+
+
+Top view:               topword00
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 988.581
+
+                   Requested     Estimated     Requested     Estimated                 Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type       Group          
+-----------------------------------------------------------------------------------------------------------------
+System             1.0 MHz       87.6 MHz      1000.000      11.419        988.581     system     system_clkgroup
+=================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System  |  1000.000    988.581  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                       Arrival            
+Instance             Reference     Type        Pin     Net          Time        Slack  
+                     Clock                                                             
+---------------------------------------------------------------------------------------
+W00.D01.sdiv[21]     System        FD1S3IX     Q       sdiv[21]     1.180       988.581
+W00.D01.sdiv[20]     System        FD1S3IX     Q       sdiv[20]     1.148       988.613
+W00.D01.sdiv[19]     System        FD1S3IX     Q       sdiv[19]     1.044       988.717
+W00.D01.sdiv[18]     System        FD1S3IX     Q       sdiv[18]     1.188       989.806
+W00.D01.sdiv[17]     System        FD1S3IX     Q       sdiv[17]     1.180       989.814
+W00.D01.sdiv[16]     System        FD1S3IX     Q       sdiv[16]     1.108       989.886
+W00.D01.sdiv[4]      System        FD1S3IX     Q       sdiv[4]      1.044       990.190
+W00.D01.sdiv[5]      System        FD1S3IX     Q       sdiv[5]      1.044       990.190
+W00.D01.sdiv[6]      System        FD1S3IX     Q       sdiv[6]      1.044       990.190
+W00.D01.sdiv[7]      System        FD1S3IX     Q       sdiv[7]      1.044       990.190
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                               Required            
+Instance              Reference     Type        Pin     Net                  Time         Slack  
+                      Clock                                                                      
+-------------------------------------------------------------------------------------------------
+W00.D01.sdiv[21]      System        FD1S3IX     D       un2_sdiv[21]         999.894      988.581
+W00.D01.sdiv[19]      System        FD1S3IX     D       un2_sdiv[19]         999.894      988.724
+W00.D01.sdiv[20]      System        FD1S3IX     D       un2_sdiv[20]         999.894      988.724
+W00.D01.sdiv[17]      System        FD1S3IX     D       un2_sdiv[17]         999.894      988.867
+W00.D01.sdiv[18]      System        FD1S3IX     D       un2_sdiv[18]         999.894      988.867
+W02.outcoder_1[0]     System        FD1S3DX     D       outcoder_1_en2_2     1000.089     988.958
+W02.outcoder_1[3]     System        FD1S3DX     D       outcoder_1_en2_1     1000.089     988.958
+W02.outcoder_1[4]     System        FD1S3DX     D       outcoder_1_en2_0     1000.089     988.958
+W02.outcoder_1[6]     System        FD1S3DX     D       outcoder_1_en2       1000.089     988.958
+W00.D01.sdiv[15]      System        FD1S3IX     D       un2_sdiv[15]         999.894      989.010
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         999.894
+
+    - Propagation time:                      11.313
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     988.581
+
+    Number of logic level(s):                17
+    Starting point:                          W00.D01.sdiv[21] / Q
+    Ending point:                            W00.D01.sdiv[21] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+W00.D01.sdiv[21]                            FD1S3IX      Q        Out     1.180     1.180       -         
+sdiv[21]                                    Net          -        -       -         -           5         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a2[0]       ORCALUT4     B        In      0.000     1.180       -         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a2[0]       ORCALUT4     Z        Out     1.233     2.413       -         
+un1_outdiv_0_sqmuxa_1_0_a2[0]               Net          -        -       -         -           6         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a2_1[0]     ORCALUT4     A        In      0.000     2.413       -         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a2_1[0]     ORCALUT4     Z        Out     1.153     3.565       -         
+N_44                                        Net          -        -       -         -           3         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a2_2[0]     ORCALUT4     A        In      0.000     3.565       -         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a2_2[0]     ORCALUT4     Z        Out     1.193     4.758       -         
+N_45                                        Net          -        -       -         -           4         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a8_2[0]     ORCALUT4     B        In      0.000     4.758       -         
+W00.D01.un1_outdiv_0_sqmuxa_1_0_a8_2[0]     ORCALUT4     Z        Out     1.017     5.775       -         
+un1_outdiv_0_sqmuxa_1_0_a8_2[0]             Net          -        -       -         -           1         
+W00.D01.un1_outdiv_0_sqmuxa_1_0[0]          ORCALUT4     A        In      0.000     5.775       -         
+W00.D01.un1_outdiv_0_sqmuxa_1_0[0]          ORCALUT4     Z        Out     1.017     6.792       -         
+un1_outdiv_0_sqmuxa_1_0[0]                  Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_0_0                    CCU2D        B0       In      0.000     6.792       -         
+W00.D01.un2_sdiv_cry_0_0                    CCU2D        COUT     Out     1.545     8.336       -         
+un2_sdiv_cry_0                              Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_1_0                    CCU2D        CIN      In      0.000     8.336       -         
+W00.D01.un2_sdiv_cry_1_0                    CCU2D        COUT     Out     0.143     8.479       -         
+un2_sdiv_cry_2                              Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_3_0                    CCU2D        CIN      In      0.000     8.479       -         
+W00.D01.un2_sdiv_cry_3_0                    CCU2D        COUT     Out     0.143     8.622       -         
+un2_sdiv_cry_4                              Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_5_0                    CCU2D        CIN      In      0.000     8.622       -         
+W00.D01.un2_sdiv_cry_5_0                    CCU2D        COUT     Out     0.143     8.765       -         
+un2_sdiv_cry_6                              Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_7_0                    CCU2D        CIN      In      0.000     8.765       -         
+W00.D01.un2_sdiv_cry_7_0                    CCU2D        COUT     Out     0.143     8.908       -         
+un2_sdiv_cry_8                              Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_9_0                    CCU2D        CIN      In      0.000     8.908       -         
+W00.D01.un2_sdiv_cry_9_0                    CCU2D        COUT     Out     0.143     9.050       -         
+un2_sdiv_cry_10                             Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_11_0                   CCU2D        CIN      In      0.000     9.050       -         
+W00.D01.un2_sdiv_cry_11_0                   CCU2D        COUT     Out     0.143     9.193       -         
+un2_sdiv_cry_12                             Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_13_0                   CCU2D        CIN      In      0.000     9.193       -         
+W00.D01.un2_sdiv_cry_13_0                   CCU2D        COUT     Out     0.143     9.336       -         
+un2_sdiv_cry_14                             Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_15_0                   CCU2D        CIN      In      0.000     9.336       -         
+W00.D01.un2_sdiv_cry_15_0                   CCU2D        COUT     Out     0.143     9.479       -         
+un2_sdiv_cry_16                             Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_17_0                   CCU2D        CIN      In      0.000     9.479       -         
+W00.D01.un2_sdiv_cry_17_0                   CCU2D        COUT     Out     0.143     9.621       -         
+un2_sdiv_cry_18                             Net          -        -       -         -           1         
+W00.D01.un2_sdiv_cry_19_0                   CCU2D        CIN      In      0.000     9.621       -         
+W00.D01.un2_sdiv_cry_19_0                   CCU2D        COUT     Out     0.143     9.764       -         
+un2_sdiv_cry_20                             Net          -        -       -         -           1         
+W00.D01.un2_sdiv_s_21_0                     CCU2D        CIN      In      0.000     9.764       -         
+W00.D01.un2_sdiv_s_21_0                     CCU2D        S0       Out     1.549     11.313      -         
+un2_sdiv[21]                                Net          -        -       -         -           1         
+W00.D01.sdiv[21]                            FD1S3IX      D        In      0.000     11.313      -         
+==========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 148MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 39 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       18
+
+
+Details:
+CCU2D:          12
+FD1P3IX:        1
+FD1S3AX:        12
+FD1S3DX:        4
+FD1S3IX:        22
+GSR:            1
+IB:             6
+INV:            2
+OB:             12
+ORCALUT4:       56
+OSCH:           1
+PFUMX:          1
+PUR:            1
+VHI:            4
+VLO:            4
+false:          2
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 148MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Sep 13 10:48:10 2017
+
+###########################################################]

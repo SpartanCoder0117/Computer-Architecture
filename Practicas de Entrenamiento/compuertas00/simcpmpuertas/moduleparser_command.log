@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.9_x64/bin/nt64/moduleparser.exe -PROJ simcpmpuertas -pf C:/lscc/diamond/3.9_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg C:/lscc/diamond/3.9_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/compuertas00/simcpmpuertas/source_files.lst

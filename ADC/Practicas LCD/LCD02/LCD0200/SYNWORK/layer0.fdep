@@ -1,0 +1,95 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\jmaci\\Desktop\\lcd02\\lcd0200\\synwork\\lcd0200_lcd0200_comp.srs|-top|topram00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501910110
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501933408
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501909424
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\div00.vhd":1512348286
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501914216
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\osc00.vhd":1512348266
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1501914216
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\packcagediv00.vhd":1512348314
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\lcdcontconfig00.vhd":1512348734
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\lcdconfig00.vhd":1512348612
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\lcdmux00.vhd":1512353640
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\contring00.vhd":1512353696
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\coder00.vhd":1512353768
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\muxra00.vhd":1512350500
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\packageram00.vhd":1512352584
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\toposc00.vhd":1528849154
+#CUR:"C:\\Users\\jmaci\\Desktop\\lcd02vhdl\\topram00.vhd":1528951207
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\jmaci\Desktop\lcd02vhdl\div00.vhd" vhdl
+2 "C:\Users\jmaci\Desktop\lcd02vhdl\osc00.vhd" vhdl
+3 "C:\Users\jmaci\Desktop\lcd02vhdl\packcagediv00.vhd" vhdl
+4 "C:\Users\jmaci\Desktop\lcd02vhdl\lcdcontconfig00.vhd" vhdl
+5 "C:\Users\jmaci\Desktop\lcd02vhdl\lcdconfig00.vhd" vhdl
+6 "C:\Users\jmaci\Desktop\lcd02vhdl\lcdmux00.vhd" vhdl
+7 "C:\Users\jmaci\Desktop\lcd02vhdl\contring00.vhd" vhdl
+8 "C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd" vhdl
+9 "C:\Users\jmaci\Desktop\lcd02vhdl\muxra00.vhd" vhdl
+10 "C:\Users\jmaci\Desktop\lcd02vhdl\packageram00.vhd" vhdl
+11 "C:\Users\jmaci\Desktop\lcd02vhdl\toposc00.vhd" vhdl
+12 "C:\Users\jmaci\Desktop\lcd02vhdl\topram00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 2 1 3 
+12 11 7 8 5 4 6 10 
+
+# Dependency Lists (Users Of)
+0 -1
+1 11 
+2 11 
+3 11 
+4 12 
+5 12 
+6 12 
+7 12 
+8 12 
+9 -1
+10 12 
+11 12 
+12 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work lcdcontconfig00 lcdcontconfig0 4
+module work lcdcontconfig00 4
+arch work lcdconfig00 lcdconfig0 5
+module work lcdconfig00 5
+arch work lcdmux00 lcdmux0 6
+module work lcdmux00 6
+arch work contring00 contring0 7
+module work contring00 7
+arch work coder00 coder0 8
+module work coder00 8
+arch work muxra00 muxra0 9
+module work muxra00 9
+arch work toposc00 toposc0 11
+module work toposc00 11
+arch work topram00 topram0 12
+module work topram00 12
+
+
+# Configuration files used

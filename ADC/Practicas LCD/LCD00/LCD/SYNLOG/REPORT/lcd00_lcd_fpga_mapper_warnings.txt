@@ -1,0 +1,5 @@
+@W: FA239 :"f:\lcd00\lcddata00.vhdl":52:20:52:27|ROM outwordd_2[6:5] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\lcd00\lcddata00.vhdl":52:20:52:27|ROM outwordd_2[3:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\lcd00\lcddata00.vhdl":52:20:52:27|ROM outwordd_2[6:5] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\lcd00\lcddata00.vhdl":52:20:52:27|ROM outwordd_2[3:0] (in view: work.lcddata00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:L00.OS00.osc_int"

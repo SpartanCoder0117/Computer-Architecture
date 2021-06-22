@@ -1,0 +1,40 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Sep 29 11:31:38 2017 *
+NOTE DESIGN NAME: topmult8bit00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Rm8[0] : 10 : out *
+NOTE PINS Am8[0] : 39 : in *
+NOTE PINS Rm8[15] : 121 : out *
+NOTE PINS Rm8[14] : 122 : out *
+NOTE PINS Rm8[13] : 120 : out *
+NOTE PINS Rm8[12] : 113 : out *
+NOTE PINS Rm8[11] : 111 : out *
+NOTE PINS Rm8[10] : 112 : out *
+NOTE PINS Rm8[9] : 110 : out *
+NOTE PINS Rm8[8] : 109 : out *
+NOTE PINS Rm8[7] : 1 : out *
+NOTE PINS Rm8[6] : 2 : out *
+NOTE PINS Rm8[5] : 3 : out *
+NOTE PINS Rm8[4] : 4 : out *
+NOTE PINS Rm8[3] : 6 : out *
+NOTE PINS Rm8[2] : 5 : out *
+NOTE PINS Rm8[1] : 9 : out *
+NOTE PINS Bm8[7] : 50 : in *
+NOTE PINS Bm8[6] : 52 : in *
+NOTE PINS Bm8[5] : 54 : in *
+NOTE PINS Bm8[4] : 55 : in *
+NOTE PINS Bm8[3] : 56 : in *
+NOTE PINS Bm8[2] : 57 : in *
+NOTE PINS Bm8[1] : 58 : in *
+NOTE PINS Bm8[0] : 59 : in *
+NOTE PINS Am8[7] : 41 : in *
+NOTE PINS Am8[6] : 42 : in *
+NOTE PINS Am8[5] : 43 : in *
+NOTE PINS Am8[4] : 44 : in *
+NOTE PINS Am8[3] : 45 : in *
+NOTE PINS Am8[2] : 47 : in *
+NOTE PINS Am8[1] : 48 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

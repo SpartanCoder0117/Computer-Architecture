@@ -1,0 +1,2 @@
+@E: CD755 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\toplcd00.vhdl":9:7:9:14|Selected top-level module toplcd00 is a black box 
+

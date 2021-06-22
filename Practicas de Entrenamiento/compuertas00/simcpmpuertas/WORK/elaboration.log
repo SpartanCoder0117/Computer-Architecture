@@ -1,0 +1,37 @@
+Active-HDL 10.3.3558.6081  2017-08-22 19:38:38
+
+Elaboration top modules:
+Architecture                  compuertas0(compuertas00)
+
+
+-----------------------------------------------------------------------------------------------
+Entity       | Architecture | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------
+compuertas00 | compuertas0  | work    |      | 10.3.3558.6081  (Windows) | -dbg
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+VHDL Package                | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------
+standard                    | std     |      |                           | <unavailable>
+TEXTIO                      | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164              | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith             | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED          | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+components                  | lattice |      | 10.3.3558.6081  (Windows) | -vendor lattice
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                     | Comment
+-----------------------------------------------------------------------------------------------
+ieee                        | Standard IEEE packages library
+lattice                     | LATTICE ispLEVER Classic 2.0, lattice VHDL LIBRARY
+std                         | Standard VHDL library
+work                        | None
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r compuertas00 -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

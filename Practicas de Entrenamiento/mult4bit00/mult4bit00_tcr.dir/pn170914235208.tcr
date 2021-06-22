@@ -1,0 +1,26 @@
+#Start recording tcl command: 9/14/2017 20:27:13
+#Project Location: C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00; Project name: Mult4bit00
+prj_project new -name "Mult4bit00" -impl "Mult4bit00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00vhdl/and00.vhdl" "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00vhdl/xor00.vhdl" "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/source"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/source/and00.vhdl" "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/source/xor00.vhdl"
+prj_project save
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/packageha00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/ha00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/or00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/packagefa00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/fa00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/packagemult4bit00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/topmult4bit00.vhdl"
+prj_run Export -impl Mult4bit00 -task Jedecgen
+prj_run Export -impl Mult4bit00 -task Jedecgen
+pgr_project save "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/Mult4bit00.xcf"
+prj_src add -exclude "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/Mult4bit00.xcf"
+prj_src enable "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/Mult4bit00.xcf"
+prj_run Export -impl Mult4bit00 -task Jedecgen
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/Mult4bit00/Mult4bit00/Mult4bit00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/14/2017 23:52:08

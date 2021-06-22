@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "sumadorlib00_sumadorlib00.log"
+-o "sumadorlib00_sumadorlib00.csv"
+-pr "sumadorlib00_sumadorlib00.prf"

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topkey00  -multisrs  "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key01\key01\synwork\key01_key01_comp.srs"  -osyn  "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key01\key01\synwork\key01_key01_mult.srs"  -log  "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key01\key01\synlog\key01_key01_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key01\key01\synwork\key01_key01_comp.srs|io:i|time:1507667065|size:10250|exec:0
+file:C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key01\key01\synwork\key01_key01_mult.srs|io:o|time:1507667066|size:3212|exec:0
+file:C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key01\key01\synlog\key01_key01_multi_srs_gen.srr|io:o|time:1507667066|size:409|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

@@ -1,0 +1,16 @@
+@W: CD434 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":30:19:30:25|Signal clklcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":30:28:30:36|Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":30:11:30:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":51:12:51:16|Referenced variable enddm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":50:12:50:15|Referenced variable rsdm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":49:12:49:15|Referenced variable rwdm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":45:12:45:15|Referenced variable encm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":44:12:44:15|Referenced variable rscm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":43:12:43:15|Referenced variable rwcm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":40:9:40:16|Referenced variable inflagcm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":33:8:33:16|Referenced variable resetlcdm is not in sensitivity list.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Removing register 'RWc' because it is only assigned 0 or its original value.
+@W: CL279 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Pruning register bits 7 to 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

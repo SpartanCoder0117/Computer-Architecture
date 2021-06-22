@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/6/2017 10:51:46
+#Project Location: C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra; Project name: palabra
+prj_project open "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra/palabra.ldf"
+prj_src add "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra/contring00.vhdl"
+prj_src add "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra/coder.vhdl"
+prj_src add "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra/packageword00.vhdl"
+prj_src add "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra/topword00.vhdl"
+#Stop recording: 9/6/2017 17:00:09

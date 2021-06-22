@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/1/2017 11:14:45
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/divosc00; Project name: divosc00
+prj_project new -name "divosc00" -impl "divosc00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/osc00vhdl/osc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/divosc00/div00.vhdl"
+#Stop recording: 9/1/2017 12:06:26

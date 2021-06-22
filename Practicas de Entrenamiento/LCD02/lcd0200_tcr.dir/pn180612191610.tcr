@@ -1,0 +1,7 @@
+#Start recording tcl command: 6/12/2018 19:08:46
+#Project Location: G:/Practicas de Entrenamiento/lcd02; Project name: lcd0200
+prj_project open "G:/Practicas de Entrenamiento/lcd02/lcd0200.ldf"
+prj_run Export -impl lcd0200 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 6/12/2018 19:16:10

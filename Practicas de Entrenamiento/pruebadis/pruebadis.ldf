@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="pruebadis" device="LCMXO2-7000HE-5TG144C" default_implementation="pruebadis">
+    <Options/>
+    <Implementation title="pruebadis" dir="pruebadis" description="pruebadis" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="pruebadis00"/>
+        <Source name="pruebadis.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="pruebadis00"/>
+        </Source>
+        <Source name="pruebadis.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="pruebadis/pruebadis.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="pruebadis1.sty"/>
+</BaliProject>

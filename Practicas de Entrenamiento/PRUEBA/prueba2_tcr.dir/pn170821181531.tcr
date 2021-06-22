@@ -1,0 +1,9 @@
+#Start recording tcl command: 8/21/2017 17:44:23
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba; Project name: prueba2
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba2.ldf"
+prj_run Export -impl prueba2 -task Jedecgen
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba2/prueba2.xcf"
+pgr_program run
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba2/prueba2.xcf"
+pgr_project close
+#Stop recording: 8/21/2017 18:15:31

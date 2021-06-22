@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="led00" device="LCMXO2-7000HE-5TG144C" default_implementation="led00">
+    <Options/>
+    <Implementation title="led00" dir="led00" description="led00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="led00"/>
+        <Source name="led00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="led00"/>
+        </Source>
+        <Source name="../../../../../../lscc/diamond/3.9_x64/bin/nt64/impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="led00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="led001.sty"/>
+</BaliProject>

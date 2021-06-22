@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\prueba\prueba.vhdl":6:7:6:14|Top entity is set to prueba00.
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\prueba\prueba.vhdl":6:7:6:14|Synthesizing work.prueba00.prueba0.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.9_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":8:7:8:13|Top entity is set to sumador.
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":8:7:8:13|Synthesizing work.sumador.behavior.
+@N|Running in 64-bit mode
+

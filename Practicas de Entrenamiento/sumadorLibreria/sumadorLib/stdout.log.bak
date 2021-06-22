@@ -1,0 +1,91 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9_x64\synpbase
+Hostname:    ALEJANDROBE
+Date:        Wed Sep 27 11:33:20 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch sumadorLib_sumadorLib_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\sumadorLib_sumadorLib.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Wed Sep 27 11:33:20 2017
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\sumadorLib_sumadorLib.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\sumadorLib_sumadorLib.srf
+
+log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\sumadorLib_sumadorLib.srr"
+
+Running: sumadorLib in foreground
+
+
+
+Running proj_1|sumadorLib
+
+
+Running: compile (Compile) on proj_1|sumadorLib
+# Wed Sep 27 11:33:21 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|sumadorLib
+# Wed Sep 27 11:33:21 2017
+
+
+Running: compiler (Compile Input) on proj_1|sumadorLib
+# Wed Sep 27 11:33:21 2017
+
+compiler exited with errors
+
+Job failed on: proj_1|sumadorLib
+
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\synlog\sumadorLib_sumadorLib_compiler.srr"
+# Wed Sep 27 11:33:21 2017
+
+Return Code: 2
+Run Time:00h:00m:00s
+
+Complete: Compile Process on proj_1|sumadorLib
+
+Complete: Compile on proj_1|sumadorLib
+
+Complete: Logic Synthesis on proj_1|sumadorLib
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\sumadorLib_sumadorLib.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\sumadorLib_sumadorLib.srf
+
+Error: At line 63 while processing "sumadorLib_sumadorLib_synplify.tcl"
+2
+
+TCL script complete: "sumadorLib_sumadorLib_synplify.tcl"
+
+TCL script had errors: "sumadorLib_sumadorLib_synplify.tcl"
+
+exit status=9
+
+exit status=9
+
+Save changes for project:
+C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumadorLib\proj_1.prj
+
+batch mode default:no
+

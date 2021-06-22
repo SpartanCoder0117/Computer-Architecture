@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/3/2017 08:36:01
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 10/3/2017 08:43:02

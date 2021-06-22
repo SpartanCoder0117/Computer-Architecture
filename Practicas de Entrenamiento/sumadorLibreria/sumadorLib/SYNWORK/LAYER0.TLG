@@ -1,0 +1,5 @@
+@N: CD630 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":8:7:8:13|Synthesizing work.sumador.behavior.
+@W: CG296 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":19:2:19:8|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":22:16:22:17|Referenced variable bb is not in sensitivity list.
+@W: CG290 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl":22:11:22:12|Referenced variable aa is not in sensitivity list.
+Post processing for work.sumador.behavior

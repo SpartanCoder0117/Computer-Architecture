@@ -1,0 +1,15 @@
+#Start recording tcl command: 9/9/2017 14:22:16
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/word00; Project name: word00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/word00/word00.ldf"
+prj_run Synthesis -impl word00
+prj_run Synthesis -impl word00
+prj_run Export -impl word00 -task Jedecgen
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/word00/word00/word00.xcf"
+prj_src add -exclude "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/word00/word00/word00.xcf"
+prj_src enable "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/word00/word00/word00.xcf"
+prj_run Export -impl word00 -task Jedecgen
+prj_run Export -impl word00 -task Jedecgen
+prj_run Export -impl word00 -task Jedecgen
+pgr_project close
+prj_run Export -impl word00 -task Jedecgen
+#Stop recording: 9/9/2017 14:53:30

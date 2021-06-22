@@ -1,0 +1,1 @@
+@E: BN314 :"c:\users\mike_\desktop\5to semestre\arquitectura de computadoras\practicas de entrenamiento\generic01\topgeneric01.vhdl":9:7:9:18|Net sadd[0] (in view: work.topgeneric01(topgeneric0)) has multiple drivers 

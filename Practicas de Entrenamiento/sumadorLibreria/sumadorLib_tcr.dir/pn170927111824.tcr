@@ -1,0 +1,20 @@
+#Start recording tcl command: 9/27/2017 10:41:35
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria; Project name: sumadorLib
+C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00
+mult8bit00
+#Start recording tcl command: 9/27/2017 11:18:23
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.ldf"
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+prj_run Export -impl sumadorLib -task Jedecgen
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib/sumadorLib.xcf"
+pgr_program run
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib/sumadorLib.xcf"
+prj_project save
+prj_project close
+prj_project new -name "mult8bit00" -impl "mult8bit00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/fa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/ha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/or00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/packagefa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/packageha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/packagemult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult4bitvhdl/topmult4bit00.vhdl"
+prj_project save
+pgr_project close
+#Stop recording: 9/27/2017 11:18:24

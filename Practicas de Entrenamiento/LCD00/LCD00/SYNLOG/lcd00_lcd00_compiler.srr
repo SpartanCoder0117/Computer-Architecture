@@ -1,0 +1,83 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\toplcd00.vhdl":9:7:9:14|Top entity is set to toplcd00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\toplcd00.vhdl":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+@W: CD434 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":30:19:30:25|Signal clklcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":30:28:30:36|Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":30:11:30:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":51:12:51:16|Referenced variable enddm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":50:12:50:15|Referenced variable rsdm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":49:12:49:15|Referenced variable rwdm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":45:12:45:15|Referenced variable encm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":44:12:44:15|Referenced variable rscm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":43:12:43:15|Referenced variable rwcm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":40:9:40:16|Referenced variable inflagcm is not in sensitivity list.
+@W: CG290 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":33:8:33:16|Referenced variable resetlcdm is not in sensitivity list.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcddata00.vhdl":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdcontdata00.vhdl":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdcontdata00.vhdl":25:3:25:4|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdcontdata00.vhdl":25:3:25:4|Register bit RWcd is always 0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdcontconfig00.vhdl":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdcontconfig00.vhdl":32:7:32:11|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcd00.toplcd0
+@W: CL138 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Removing register 'RWc' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Register bit comandoc(6) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Register bit comandoc(7) is always 0.
+@W: CL279 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdconfig00.vhdl":25:3:25:4|Pruning register bits 7 to 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":10:7:10:13|Input clklcdm is unused.
+@N: CL159 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\lcd00\lcdmux00.vhdl":13:4:13:12|Input inFlagcdm is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 11:10:46 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 11:10:47 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 11:10:47 2017
+
+###########################################################]

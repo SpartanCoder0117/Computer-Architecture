@@ -1,0 +1,24 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\jmaci\Desktop\lcd02vhdl\topram00.vhd":9:7:9:14|Top entity is set to topram00.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\topram00.vhd":9:7:9:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\lcdmux00.vhd":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\lcdcontconfig00.vhd":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\jmaci\Desktop\lcd02vhdl\lcdcontconfig00.vhd":32:7:32:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\lcdconfig00.vhd":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd":35:4:35:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd":42:4:42:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd":78:4:78:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd":114:4:114:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\lcd02vhdl\coder00.vhd":150:4:150:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\jmaci\Desktop\lcd02vhdl\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\jmaci\Desktop\lcd02vhdl\lcdconfig00.vhd":25:4:25:5|Register bit comandoc(6) is always 0.
+@N: CL159 :"C:\Users\jmaci\Desktop\lcd02vhdl\lcdmux00.vhd":10:7:10:13|Input clklcdm is unused.
+@N|Running in 64-bit mode
+

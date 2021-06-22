@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "F:/lcd00/div00.vhdl" "F:/lcd00/osc00.vhdl" "F:/lcd00/packageosc00.vhdl" "F:/lcd00/lcdContConfig00.vhdl" "F:/lcd00/lcdconfig00.vhdl" "F:/lcd00/lcdcontdata00.vhdl" "F:/lcd00/lcddata00.vhdl" "F:/lcd00/lcdmux00.vhdl" "F:/lcd00/packagelcd00.vhdl" "F:/lcd00/toposc00.vhdl" "F:/lcd00/toplcd00.vhdl" 

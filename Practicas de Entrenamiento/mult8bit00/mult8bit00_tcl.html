@@ -1,0 +1,129 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn170928192344"></A><B><U><big>pn170928192344</big></U></B>
+#Start recording tcl command: 9/28/2017 19:17:51
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project new -name "mult8bit00" -impl "mult8bit00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/and00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/fa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/ha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/or00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/packagefa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source"
+file copy -force -- "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/packageha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/packagemult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/topmult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bitvhdl/xor00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/and00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/fa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/ha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/or00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/packagefa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/packageha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/packagemult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/topmult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/xor00.vhdl"
+prj_project save
+prj_src remove "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/and00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/fa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/ha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/or00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/packagefa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/packageha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/packagemult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/topmult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/source/xor00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/or00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/packagefa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/packageha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/packagemult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/topmult4bit00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/xor00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/ha00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/fa00.vhdl" "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/and00.vhdl"
+prj_run Export -impl mult8bit00 -task Jedecgen
+#Stop recording: 9/28/2017 19:23:44
+
+
+
+<A name="pn170929114635"></A><B><U><big>pn170929114635</big></U></B>
+#Start recording tcl command: 9/29/2017 10:38:01
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+prj_run Export -impl mult8bit00 -task Jedecgen
+prj_run Export -impl mult8bit00 -task Jedecgen
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src add -exclude "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src enable "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/29/2017 11:46:35
+
+
+
+<A name="pn171003084302"></A><B><U><big>pn171003084302</big></U></B>
+#Start recording tcl command: 10/3/2017 08:36:01
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+pgr_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 10/3/2017 08:43:02
+
+
+
+<A name="pn171010102613"></A><B><U><big>pn171010102613</big></U></B>
+#Start recording tcl command: 10/10/2017 10:24:16
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+prj_project close
+#Stop recording: 10/10/2017 10:26:13
+
+
+
+<A name="pn171017144915"></A><B><U><big>pn171017144915</big></U></B>
+#Start recording tcl command: 10/17/2017 14:12:41
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+#Stop recording: 10/17/2017 14:49:15
+
+
+
+<A name="pn171115162723"></A><B><U><big>pn171115162723</big></U></B>
+#Start recording tcl command: 11/15/2017 15:33:28
+#Project Location: C:/Users/mike_/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/mike_/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+#Stop recording: 11/15/2017 16:27:23
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

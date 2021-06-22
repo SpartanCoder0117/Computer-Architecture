@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/29/2017 10:49:55
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/key00; Project name: ke00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/key00/ke00.ldf"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/key00/packagekey00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/key00/topkey00.vhdl"
+prj_run Export -impl key00 -task Jedecgen
+prj_run Export -impl key00 -task Jedecgen
+prj_run Export -impl key00 -task Jedecgen
+prj_run Export -impl key00 -task Jedecgen
+#Stop recording: 9/29/2017 11:46:21

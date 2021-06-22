@@ -1,0 +1,128 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\diamond\3.9_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.9_x64\synpbase
+Hostname:    ALEJANDROBE
+Date:        Tue Sep 05 21:20:12 2017
+Version:     L-2016.09L
+
+Arguments:   -product synplify_pro -batch pruebadis_pruebadis_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+Technology initialized from device list to: LATTICE-XP
+
+log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen completed
+# Tue Sep 05 21:20:14 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+log file: "C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srr"
+
+Running: pruebadis in foreground
+
+
+
+Running proj_1|pruebadis
+
+
+Running: compile (Compile) on proj_1|pruebadis
+# Tue Sep 05 21:20:14 2017
+
+
+Running: compile_flow (Compile Process) on proj_1|pruebadis
+# Tue Sep 05 21:20:14 2017
+
+
+Running: compiler (Compile Input) on proj_1|pruebadis
+# Tue Sep 05 21:20:14 2017
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\synwork\pruebadis_pruebadis_comp.srs to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srs
+
+
+compiler completed
+# Tue Sep 05 21:20:16 2017
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|pruebadis
+# Tue Sep 05 21:20:16 2017
+
+
+multi_srs_gen completed
+# Tue Sep 05 21:20:17 2017
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\synwork\pruebadis_pruebadis_mult.srs to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srs
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srf
+
+Complete: Compile Process on proj_1|pruebadis
+
+
+Running: premap (Pre-mapping) on proj_1|pruebadis
+# Tue Sep 05 21:20:17 2017
+
+
+premap completed
+# Tue Sep 05 21:20:19 2017
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Complete: Compile on proj_1|pruebadis
+
+
+Running: map (Map) on proj_1|pruebadis
+# Tue Sep 05 21:20:19 2017
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|pruebadis
+# Tue Sep 05 21:20:19 2017
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\synwork\pruebadis_pruebadis_m.srm to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srm
+
+
+fpga_mapper completed
+# Tue Sep 05 21:20:21 2017
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Complete: Map on proj_1|pruebadis
+
+Copied C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srr to C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\pruebadis_pruebadis.srf
+
+Complete: Logic Synthesis on proj_1|pruebadis
+
+TCL script complete: "pruebadis_pruebadis_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\pruebadis\pruebadis\proj_1.prj
+
+batch mode default:no
+

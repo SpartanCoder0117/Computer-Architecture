@@ -1,0 +1,88 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl":9:7:9:18|Top entity is set to topgeneric01.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl":9:7:9:18|Synthesizing work.topgeneric01.topgeneric0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\multg00.vhdl":8:7:8:13|Synthesizing work.multg00.multg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bitvhdl\topmult4bit00.vhdl":8:7:8:19|Synthesizing work.topmult8bit00.topmult8bit0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\ha00.vhdl":8:7:8:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":8:7:8:12|Synthesizing work.notg00.notg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":8:7:8:13|Synthesizing work.xnorg00.xnorg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":8:7:8:12|Synthesizing work.norg00.norg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":8:7:8:13|Synthesizing work.nandg00.nandg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":8:7:8:11|Synthesizing work.org00.org0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\uc00.vhdl":8:7:8:10|Synthesizing work.uc00.uc0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl":8:7:8:14|Synthesizing work.substg00.substg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl":8:7:8:12|Synthesizing work.addg00.addg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\topadder8bit00.vhdl":7:7:7:20|Synthesizing work.topadder8bit00.topadder8bit0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":8:7:8:12|Synthesizing work.xorg00.xorg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":8:7:8:12|Synthesizing work.andg00.andg0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl":24:4:24:5|Register bit outga(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl":24:4:24:5|Register bit outgx(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl":26:4:26:5|Register bit outSL is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl":26:4:26:5|Register bit outSLsub is always 1.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl":24:4:24:5|Register bit outgo(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl":24:4:24:5|Register bit outgna(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":24:4:24:5|Register bit outgnor(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl":24:4:24:5|Register bit outgxnor(15) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(8) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(9) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(10) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(11) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(12) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(13) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(14) is always 0.
+@N: CL189 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl":24:4:24:5|Register bit outgnot(15) is always 0.
+@N|Running in 64-bit mode
+

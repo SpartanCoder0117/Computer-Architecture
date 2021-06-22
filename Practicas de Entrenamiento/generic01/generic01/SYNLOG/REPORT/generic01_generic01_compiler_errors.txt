@@ -1,0 +1,2 @@
+@E: CD297 :"C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl":30:5:30:11|Width mismatch, location has width 16, value 8
+

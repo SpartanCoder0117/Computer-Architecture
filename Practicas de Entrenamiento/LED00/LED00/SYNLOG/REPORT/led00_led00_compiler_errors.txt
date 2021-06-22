@@ -1,0 +1,6 @@
+@E: CL219 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\led00\led00.vhdl":8:1:8:3|Multiple non-tristate drivers for net led in led00
+@E: CL229 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\led00\led00.vhdl":8:1:8:3|Unresolved tristate drivers for net led in led00
+@E: MF420 |Netlist read from file C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\led00\led00\synwork\layer0.srs failed
+@E: Could not find specified top level led00 (library: work, cell: led00)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

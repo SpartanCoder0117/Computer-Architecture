@@ -1,0 +1,13 @@
+#Start recording tcl command: 9/29/2017 10:38:01
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00.ldf"
+prj_run Export -impl mult8bit00 -task Jedecgen
+prj_run Export -impl mult8bit00 -task Jedecgen
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src add -exclude "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_src enable "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/mult8bit00/mult8bit00/mult8bit00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/29/2017 11:46:35

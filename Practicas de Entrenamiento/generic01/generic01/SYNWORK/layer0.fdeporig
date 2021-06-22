@@ -1,0 +1,184 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\generic01\\synwork\\generic01_generic01_comp.srs|-top|topgeneric01|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\toposc00\\div00.vhdl":1507134689
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\toposc00\\osc00.vhdl":1507134448
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\substg00.vhdl":1512447617
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\addg00.vhdl":1512447626
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\multg00.vhdl":1512429736
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\andg00.vhdl":1512448596
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\xorg0.vhdl":1512448596
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\org00.vhdl":1512448596
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\uc00.vhdl":1512447211
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\nandg00.vhdl":1512448596
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\norg00.vhdl":1512448344
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\xnorg00.vhdl":1512448481
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\notg00.vhdl":1512448481
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\packagegeneric01.vhdl":1512450002
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\toposc00\\packagediv00.vhdl":1507134430
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\toposc00\\toposc00.vhdl":1511543839
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\and00.vhdl":1504275173
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\or00.vhdl":1504275177
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\packageha00.vhdl":1504275360
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\xor00.vhdl":1504277069
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\ha00.vhdl":1511543348
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\xnor00.vhdl":1504275486
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\packagefa00.vhdl":1504275406
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\fa00.vhdl":1504275423
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\mult8bitvhdl\\packagemult4bit00.vhdl":1505442798
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\packageadder00.vhdl":1504275588
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\mult8bitvhdl\\topmult4bit00.vhdl":1512428890
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\adder8bitvhdl\\topadder8bit00.vhdl":1512447450
+#CUR:"C:\\Users\\mike_\\Desktop\\5to semestre\\Arquitectura de Computadoras\\Practicas de Entrenamiento\\generic01\\topgeneric01.vhdl":1512450378
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\div00.vhdl" vhdl
+2 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\osc00.vhdl" vhdl
+3 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\substg00.vhdl" vhdl
+4 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\addg00.vhdl" vhdl
+5 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\multg00.vhdl" vhdl
+6 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\andg00.vhdl" vhdl
+7 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xorg0.vhdl" vhdl
+8 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\org00.vhdl" vhdl
+9 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\uc00.vhdl" vhdl
+10 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\nandg00.vhdl" vhdl
+11 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\norg00.vhdl" vhdl
+12 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\xnorg00.vhdl" vhdl
+13 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\notg00.vhdl" vhdl
+14 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\packagegeneric01.vhdl" vhdl
+15 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\packagediv00.vhdl" vhdl
+16 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\toposc00\toposc00.vhdl" vhdl
+17 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\and00.vhdl" vhdl
+18 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\or00.vhdl" vhdl
+19 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\packageha00.vhdl" vhdl
+20 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xor00.vhdl" vhdl
+21 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\ha00.vhdl" vhdl
+22 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\xnor00.vhdl" vhdl
+23 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\packagefa00.vhdl" vhdl
+24 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\fa00.vhdl" vhdl
+25 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bitvhdl\packagemult4bit00.vhdl" vhdl
+26 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\packageadder00.vhdl" vhdl
+27 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\mult8bitvhdl\topmult4bit00.vhdl" vhdl
+28 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\adder8bitvhdl\topadder8bit00.vhdl" vhdl
+29 "C:\Users\mike_\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\generic01\topgeneric01.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 0 
+16 2 1 15 
+17 0 
+18 0 
+19 0 
+20 0 
+21 17 20 0 19 
+22 0 
+23 0 
+24 21 18 0 23 
+25 0 
+26 0 
+27 17 24 0 25 
+28 20 24 17 22 0 26 
+29 16 6 7 28 4 3 9 8 10 11 12 13 27 5 14 
+
+# Dependency Lists (Users Of)
+0 28 27 26 25 24 23 22 21 20 19 18 17 15 
+1 16 
+2 16 
+3 29 
+4 29 
+5 29 
+6 29 
+7 29 
+8 29 
+9 29 
+10 29 
+11 29 
+12 29 
+13 29 
+14 29 
+15 16 
+16 29 
+17 28 27 21 
+18 24 
+19 21 
+20 28 21 
+21 24 
+22 28 
+23 24 
+24 28 27 
+25 27 
+26 28 
+27 29 
+28 29 
+29 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work substg00 substg0 3
+module work substg00 3
+arch work addg00 addg0 4
+module work addg00 4
+arch work multg00 multg0 5
+module work multg00 5
+arch work andg00 andg0 6
+module work andg00 6
+arch work xorg00 xorg0 7
+module work xorg00 7
+arch work org00 org0 8
+module work org00 8
+arch work uc00 uc0 9
+module work uc00 9
+arch work nandg00 nandg0 10
+module work nandg00 10
+arch work norg00 norg0 11
+module work norg00 11
+arch work xnorg00 xnorg0 12
+module work xnorg00 12
+arch work notg00 notg0 13
+module work notg00 13
+arch work toposc00 toposc0 16
+module work toposc00 16
+arch work and00 and0 17
+module work and00 17
+arch work or00 or0 18
+module work or00 18
+arch work xor00 xor0 20
+module work xor00 20
+arch work ha00 ha0 21
+module work ha00 21
+arch work xnor00 xnor0 22
+module work xnor00 22
+arch work fa00 fa0 24
+module work fa00 24
+arch work topmult8bit00 topmult8bit0 27
+module work topmult8bit00 27
+arch work topadder8bit00 topadder8bit0 28
+module work topadder8bit00 28
+arch work topgeneric01 topgeneric0 29
+module work topgeneric01 29

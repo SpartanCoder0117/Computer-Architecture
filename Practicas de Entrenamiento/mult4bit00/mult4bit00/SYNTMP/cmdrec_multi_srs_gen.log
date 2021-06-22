@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topmult4bit00  -multisrs  C:\Users\Fernando\Documents\Escuela\5to\Arqui3CM2\projectMachXO2\Mult4bit00\Mult4bit00\synwork\Mult4bit00_Mult4bit00_comp.srs  -osyn  C:\Users\Fernando\Documents\Escuela\5to\Arqui3CM2\projectMachXO2\Mult4bit00\Mult4bit00\synwork\Mult4bit00_Mult4bit00_mult.srs  -log  C:\Users\Fernando\Documents\Escuela\5to\Arqui3CM2\projectMachXO2\Mult4bit00\Mult4bit00\synlog\Mult4bit00_Mult4bit00_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\Fernando\Documents\Escuela\5to\Arqui3CM2\projectMachXO2\Mult4bit00\Mult4bit00\synwork\Mult4bit00_Mult4bit00_comp.srs|io:i|time:1505444184|size:5895|exec:0
+file:C:\Users\Fernando\Documents\Escuela\5to\Arqui3CM2\projectMachXO2\Mult4bit00\Mult4bit00\synwork\Mult4bit00_Mult4bit00_mult.srs|io:o|time:1505444185|size:3363|exec:0
+file:C:\Users\Fernando\Documents\Escuela\5to\Arqui3CM2\projectMachXO2\Mult4bit00\Mult4bit00\synlog\Mult4bit00_Mult4bit00_multi_srs_gen.srr|io:o|time:1505444185|size:409|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1481009796|size:3128320|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1481010064|size:3947520|exec:1

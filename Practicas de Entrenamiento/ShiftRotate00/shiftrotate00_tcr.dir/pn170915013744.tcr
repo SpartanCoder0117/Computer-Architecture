@@ -1,0 +1,26 @@
+#Start recording tcl command: 9/15/2017 00:25:34
+#Project Location: C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00; Project name: shiftrotate00
+prj_project new -name "shiftrotate00" -impl "shiftrotate00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/toposcdiv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/packagediv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/osc00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/div00.vhdl"
+prj_src remove "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/packagediv00.vhdl"
+prj_src remove "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/toposcdiv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/packagediv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/toposcdiv00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/shiftRotate00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/packageshiftRotate00.vhdl"
+prj_src add "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/topshiftRotate00.vhdl"
+prj_run Export -impl shiftrotate00 -task Jedecgen
+prj_run Export -impl shiftrotate00 -task Jedecgen
+pgr_project save "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/shiftrotate00/shiftrotate00.xcf"
+prj_src add -exclude "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/shiftrotate00/shiftrotate00.xcf"
+prj_src enable "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/shiftrotate00/shiftrotate00.xcf"
+pgr_program run
+pgr_project save "C:/Users/Fernando/Documents/Escuela/5to/Arqui3CM2/projectMachXO2/ShiftRotate00/shiftrotate00/shiftrotate00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/15/2017 01:37:44

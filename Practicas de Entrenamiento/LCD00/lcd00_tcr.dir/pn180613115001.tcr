@@ -1,0 +1,6 @@
+#Start recording tcl command: 6/13/2018 11:34:41
+#Project Location: F:/Practicas de Entrenamiento/lcd00; Project name: lcd00
+prj_project open "F:/Practicas de Entrenamiento/lcd00/lcd00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 6/13/2018 11:50:01

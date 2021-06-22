@@ -1,0 +1,18 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  F:\lcd00\lcd\synwork\lcd00_lcd_comp.srs  -top  toplcd00  -hdllog  F:\lcd00\lcd\synlog\lcd00_lcd_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\lcd00\lcd\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work F:\lcd00\div00.vhdl -lib work F:\lcd00\osc00.vhdl -lib work F:\lcd00\packageosc00.vhdl -lib work F:\lcd00\lcdContConfig00.vhdl -lib work F:\lcd00\lcdconfig00.vhdl -lib work F:\lcd00\lcdcontdata00.vhdl -lib work F:\lcd00\lcddata00.vhdl -lib work F:\lcd00\lcdmux00.vhdl -lib work F:\lcd00\packagelcd00.vhdl -lib work F:\lcd00\toposc00.vhdl -lib work F:\lcd00\toplcd00.vhdl  -jobname  "compiler" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\lcd00_lcd_comp.srs -top toplcd00 -hdllog ..\synlog\lcd00_lcd_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\div00.vhdl -lib work ..\..\osc00.vhdl -lib work ..\..\packageosc00.vhdl -lib work ..\..\lcdContConfig00.vhdl -lib work ..\..\lcdconfig00.vhdl -lib work ..\..\lcdcontdata00.vhdl -lib work ..\..\lcddata00.vhdl -lib work ..\..\lcdmux00.vhdl -lib work ..\..\packagelcd00.vhdl -lib work ..\..\toposc00.vhdl -lib work ..\..\toplcd00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:16
+file:..\synwork\lcd00_lcd_comp.srs|io:o|time:1528907362|size:14702|exec:0|csum:
+file:..\synlog\lcd00_lcd_compiler.srr|io:o|time:1528907364|size:7042|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\div00.vhdl|io:i|time:1527035940|size:2138|exec:0|csum:F6B5D8092F5502635C9A8E80942E88B7
+file:..\..\osc00.vhdl|io:i|time:1527035940|size:507|exec:0|csum:52FA8B1858CC10A6F1BAC84382475755
+file:..\..\packageosc00.vhdl|io:i|time:1527035940|size:387|exec:0|csum:3BB5632FFAC3B5BFB197A3D4EA8A04D5
+file:..\..\lcdContConfig00.vhdl|io:i|time:1527036294|size:860|exec:0|csum:42A4DDF39C521B703790519B0F15C251
+file:..\..\lcdconfig00.vhdl|io:i|time:1528907298|size:3798|exec:0|csum:297FACBD1BFEFC7804FEEC9F43E66FAF
+file:..\..\lcdcontdata00.vhdl|io:i|time:1527036502|size:1414|exec:0|csum:33BDEEAD908884BC83B6490F51838346
+file:..\..\lcddata00.vhdl|io:i|time:1527036700|size:1603|exec:0|csum:CFF9A5B2D72AE45F0535CD5E6AFA6AD8
+file:..\..\lcdmux00.vhdl|io:i|time:1527036700|size:1174|exec:0|csum:3E1599CA8627B9EE11EED4325089E063
+file:..\..\packagelcd00.vhdl|io:i|time:1527036700|size:1981|exec:0|csum:12B9B07AF5C6E5E495892D204F3728FF
+file:..\..\toposc00.vhdl|io:i|time:1527035940|size:497|exec:0|csum:BE8F543B892BE4EFB5915CFA0AB04830
+file:..\..\toplcd00.vhdl|io:i|time:1527036700|size:2799|exec:0|csum:A3688681EB7DB88247C72F181CFEAC15
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501913558|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

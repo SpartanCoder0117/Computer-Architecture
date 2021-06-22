@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    LALO-PC
+Date:        Thu Jun 14 10:35:53 2018
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch lcdram00_lcdram00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Thu Jun 14 10:36:00 2018
+
+Return Code: 0
+Run Time:00h:00m:03s
+Copied F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srr to F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srf
+log file: "F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srr"
+Running: lcdram00 in foreground
+
+Running proj_1|lcdram00
+
+Running: compile (Compile) on proj_1|lcdram00
+# Thu Jun 14 10:36:01 2018
+
+Running: compile_flow (Compile Process) on proj_1|lcdram00
+# Thu Jun 14 10:36:01 2018
+
+Running: compiler (Compile Input) on proj_1|lcdram00
+# Thu Jun 14 10:36:01 2018
+Copied F:\Practicas de Entrenamiento\lcdram00\lcdram00\synwork\lcdram00_lcdram00_comp.srs to F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srs
+
+compiler completed
+# Thu Jun 14 10:36:15 2018
+
+Return Code: 0
+Run Time:00h:00m:14s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|lcdram00
+# Thu Jun 14 10:36:15 2018
+
+multi_srs_gen completed
+# Thu Jun 14 10:36:17 2018
+
+Return Code: 0
+Run Time:00h:00m:02s
+Copied F:\Practicas de Entrenamiento\lcdram00\lcdram00\synwork\lcdram00_lcdram00_mult.srs to F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srs
+Copied F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srr to F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srf
+Complete: Compile Process on proj_1|lcdram00
+
+Running: premap (Pre-mapping) on proj_1|lcdram00
+# Thu Jun 14 10:36:17 2018
+
+premap completed with warnings
+# Thu Jun 14 10:36:26 2018
+
+Return Code: 1
+Run Time:00h:00m:09s
+Complete: Compile on proj_1|lcdram00
+
+Running: map (Map) on proj_1|lcdram00
+# Thu Jun 14 10:36:26 2018
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|lcdram00
+# Thu Jun 14 10:36:26 2018
+Copied F:\Practicas de Entrenamiento\lcdram00\lcdram00\synwork\lcdram00_lcdram00_m.srm to F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srm
+
+fpga_mapper completed with warnings
+# Thu Jun 14 10:36:39 2018
+
+Return Code: 1
+Run Time:00h:00m:13s
+Complete: Map on proj_1|lcdram00
+Copied F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srr to F:\Practicas de Entrenamiento\lcdram00\lcdram00\lcdram00_lcdram00.srf
+Complete: Logic Synthesis on proj_1|lcdram00
+TCL script complete: "lcdram00_lcdram00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+F:\Practicas de Entrenamiento\lcdram00\lcdram00\proj_1.prj
+batch mode default:no

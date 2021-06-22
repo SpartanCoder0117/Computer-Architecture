@@ -1,0 +1,21 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Sep 27 11:36:29 2017 *
+NOTE DESIGN NAME: sumador *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS sal[0] : 109 : out *
+NOTE PINS Aa[0] : 103 : in *
+NOTE PINS sal[3] : 111 : out *
+NOTE PINS sal[2] : 112 : out *
+NOTE PINS sal[1] : 110 : out *
+NOTE PINS Sel : 60 : in *
+NOTE PINS Bb[3] : 104 : in *
+NOTE PINS Bb[2] : 106 : in *
+NOTE PINS Bb[1] : 99 : in *
+NOTE PINS Bb[0] : 105 : in *
+NOTE PINS Aa[3] : 113 : in *
+NOTE PINS Aa[2] : 107 : in *
+NOTE PINS Aa[1] : 114 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sal_cry_0_0_S0</Dynamic>
+            <Navigation>sal_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sal_s_3_0_S1</Dynamic>
+            <Navigation>sal_s_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sal_s_3_0_COUT</Dynamic>
+            <Navigation>sal_s_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorlib00\sumadorlib00.vhdl&quot;:19:2:19:8|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorlib00\sumadorlib00.vhdl</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorlib00\sumadorlib00.vhdl&quot;:22:16:22:17|Referenced variable bb is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorlib00\sumadorlib00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Referenced variable bb is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorlib00\sumadorlib00.vhdl&quot;:22:11:22:12|Referenced variable aa is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorlib00\sumadorlib00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Referenced variable aa is not in sensitivity list.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

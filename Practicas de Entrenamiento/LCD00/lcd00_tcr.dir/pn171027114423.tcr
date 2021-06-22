@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/27/2017 10:50:53
+#Project Location: C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/lcd00; Project name: lcd00
+prj_project open "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/lcd00/lcd00.ldf"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/lcd00/lcdcontdata00.vhdl"
+prj_src add "C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/lcd00/lcddata00.vhdl"
+#Stop recording: 10/27/2017 11:44:23

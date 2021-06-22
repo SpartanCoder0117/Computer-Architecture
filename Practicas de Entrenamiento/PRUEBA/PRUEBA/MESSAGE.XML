@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba.lpf(3): Semantic error in &quot;LOCATE COMP &quot;Aa&quot; SITE &quot;47&quot; ;&quot;: </Dynamic>
+            <Dynamic>Aa</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba.lpf</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba.lpf(4): Semantic error in &quot;LOCATE COMP &quot;Bb&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
+            <Dynamic>Bb</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba.lpf</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba.lpf(5): Semantic error in &quot;LOCATE COMP &quot;Yy&quot; SITE &quot;121&quot; ;&quot;: </Dynamic>
+            <Dynamic>Yy</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/prueba/prueba.lpf</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

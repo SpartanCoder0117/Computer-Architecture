@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/7/2017 20:09:15
+#Project Location: C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/sumadorLibreria; Project name: sumadorLib
+prj_project open "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/sumadorLibreria/sumadorLib.ldf"
+prj_run Translate -impl sumadorLib
+prj_run Translate -impl sumadorLib
+#Stop recording: 9/7/2017 21:04:26

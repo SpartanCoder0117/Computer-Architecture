@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/5/2017 11:33:44
+#Project Location: C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/palabra; Project name: palabra
+prj_project new -name "palabra" -impl "palabra" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/div00.vhd" "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/osc00.vhdl" "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/packagediv00.vhdl" "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/toposcdiv00.vhdl"
+prj_project save
+#Stop recording: 9/5/2017 11:37:20

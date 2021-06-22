@@ -1,0 +1,15 @@
+#Start recording tcl command: 6/13/2018 22:59:48
+#Project Location: C:/Users/jmaci/Desktop/lcd00; Project name: lcd00
+prj_project open "C:/Users/jmaci/Desktop/lcd00/lcd00.ldf"
+pgr_project open "C:/Users/jmaci/Desktop/lcd00/lcd/lcd.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/jmaci/Desktop/lcd00/lcd/lcd.xcf"
+prj_run Export -impl lcd -task Jedecgen
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/jmaci/Desktop/lcd00/lcd/lcd.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 6/13/2018 23:38:23

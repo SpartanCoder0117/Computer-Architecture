@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\key00\topkey00.vhdl":30:1:30:3|Port incont of entity work.coder00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

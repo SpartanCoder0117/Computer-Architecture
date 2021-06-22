@@ -1,0 +1,93 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Sep 28 19:23:02 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "topmult8bit00"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Am8[0]
+p:Am8[1]
+p:Am8[2]
+p:Am8[3]
+p:Am8[4]
+p:Am8[5]
+p:Am8[6]
+p:Am8[7]
+p:Bm8[0]
+p:Bm8[1]
+p:Bm8[2]
+p:Bm8[3]
+p:Bm8[4]
+p:Bm8[5]
+p:Bm8[6]
+p:Bm8[7]
+p:Rm8[0]
+p:Rm8[1]
+p:Rm8[2]
+p:Rm8[3]
+p:Rm8[4]
+p:Rm8[5]
+p:Rm8[6]
+p:Rm8[7]
+p:Rm8[8]
+p:Rm8[9]
+p:Rm8[10]
+p:Rm8[11]
+p:Rm8[12]
+p:Rm8[13]
+p:Rm8[14]
+p:Rm8[15]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

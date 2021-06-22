@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+simcpmpuertas=simcpmpuertas.adf
+[Settings]
+Active=simcpmpuertas
+[Expand]
+simcpmpuertas=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

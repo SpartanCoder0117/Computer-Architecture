@@ -1,0 +1,51 @@
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+LOCATE COMP "clk00" SITE "22" ;
+LOCATE COMP "cdiv00[0]" SITE "39" ;
+LOCATE COMP "cdiv00[1]" SITE "41" ;
+LOCATE COMP "cdiv00[2]" SITE "40" ;
+LOCATE COMP "cdiv00[3]" SITE "100" ;
+LOCATE COMP "cdiv00[4]" SITE "105" ;
+LOCATE COMP "reset0" SITE "50" ;
+LOCATE COMP "ENled0" SITE "21" ;
+LOCATE COMP "outFlagconfig0" SITE "24" ;
+LOCATE COMP "outFlagcontdata0" SITE "23" ;
+LOCATE COMP "outFlagdata0" SITE "26" ;
+LOCATE COMP "soutFlagcontconfig0" SITE "25" ;
+LOCATE COMP "outwordled0[0]" SITE "110" ;//menos significativo
+LOCATE COMP "outwordled0[1]" SITE "109" ;
+LOCATE COMP "outwordled0[2]" SITE "112" ;
+LOCATE COMP "outwordled0[3]" SITE "111" ;
+LOCATE COMP "outwordled0[4]" SITE "114" ;
+LOCATE COMP "outwordled0[5]" SITE "113" ;
+LOCATE COMP "outwordled0[6]" SITE "117" ;
+LOCATE COMP "outwordled0[7]" SITE "115" ;
+//1 - 76
+//5 77
+//6 78
+//4 - 82 81
+//82
+//2 - 84 83
+//3 - 83 84
+// 85
+LOCATE COMP "EN0" SITE "75" ;
+LOCATE COMP "RW0" SITE "74" ;
+LOCATE COMP "RS0" SITE "73" ;
+LOCATE COMP "outcontconfig0[0]" SITE "99" ;
+LOCATE COMP "outcontconfig0[1]" SITE "98" ;
+LOCATE COMP "outcontconfig0[2]" SITE "97" ;
+LOCATE COMP "outcontconfig0[3]" SITE "96" ;
+LOCATE COMP "outcontconfig0[4]" SITE "95" ;
+LOCATE COMP "outcontdata0[0]" SITE "94" ;
+LOCATE COMP "outcontdata0[1]" SITE "93" ;
+LOCATE COMP "outcontdata0[2]" SITE "92" ;
+LOCATE COMP "outcontdata0[3]" SITE "91" ;
+LOCATE COMP "outcontdata0[4]" SITE "86" ;
+LOCATE COMP "outword0[0]" SITE "76" ;
+LOCATE COMP "outword0[1]" SITE "77" ;
+LOCATE COMP "outword0[2]" SITE "78" ;
+LOCATE COMP "outword0[3]" SITE "81" ;
+LOCATE COMP "outword0[4]" SITE "82" ;
+LOCATE COMP "outword0[5]" SITE "83" ;
+LOCATE COMP "outword0[6]" SITE "84" ;
+LOCATE COMP "outword0[7]" SITE "85" ;

@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/6/2017 08:22:16
+#Project Location: C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/sumadorLibreria; Project name: sumadorLib
+prj_project new -name "sumadorLib" -impl "sumadorLib" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/tevod/OneDrive/Documentos/Escom/5semestre/ArquitecturadeComputadoras/practicas/sumadorLibreria/sumador.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 9/6/2017 10:51:46

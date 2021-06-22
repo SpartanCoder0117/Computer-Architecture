@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(3): Semantic error in &quot;LOCATE COMP &quot;sal[7]&quot; SITE &quot;121&quot; ;&quot;: </Dynamic>
+            <Dynamic>sal[7]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(4): Semantic error in &quot;LOCATE COMP &quot;sal[6]&quot; SITE &quot;122&quot; ;&quot;: </Dynamic>
+            <Dynamic>sal[6]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(5): Semantic error in &quot;LOCATE COMP &quot;sal[5]&quot; SITE &quot;120&quot; ;&quot;: </Dynamic>
+            <Dynamic>sal[5]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(6): Semantic error in &quot;LOCATE COMP &quot;sal[4]&quot; SITE &quot;113&quot; ;&quot;: </Dynamic>
+            <Dynamic>sal[4]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(7): Semantic error in &quot;LOCATE COMP &quot;Aa[7]&quot; SITE &quot;41&quot; ;&quot;: </Dynamic>
+            <Dynamic>Aa[7]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(8): Semantic error in &quot;LOCATE COMP &quot;Aa[6]&quot; SITE &quot;42&quot; ;&quot;: </Dynamic>
+            <Dynamic>Aa[6]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(9): Semantic error in &quot;LOCATE COMP &quot;Aa[5]&quot; SITE &quot;43&quot; ;&quot;: </Dynamic>
+            <Dynamic>Aa[5]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(10): Semantic error in &quot;LOCATE COMP &quot;Aa[4]&quot; SITE &quot;44&quot; ;&quot;: </Dynamic>
+            <Dynamic>Aa[4]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(11): Semantic error in &quot;LOCATE COMP &quot;Bb[7]&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>Bb[7]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(12): Semantic error in &quot;LOCATE COMP &quot;Bb[6]&quot; SITE &quot;52&quot; ;&quot;: </Dynamic>
+            <Dynamic>Bb[6]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(13): Semantic error in &quot;LOCATE COMP &quot;Bb[5]&quot; SITE &quot;54&quot; ;&quot;: </Dynamic>
+            <Dynamic>Bb[5]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf(14): Semantic error in &quot;LOCATE COMP &quot;Bb[4]&quot; SITE &quot;55&quot; ;&quot;: </Dynamic>
+            <Dynamic>Bb[4]</Dynamic>
+            <Navigation>C:/Users/Alejandro/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/sumadorLibreria/sumadorLib.lpf</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sal_cry_0_0_S0</Dynamic>
+            <Navigation>sal_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sal_s_3_0_S1</Dynamic>
+            <Navigation>sal_s_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>sal_s_3_0_COUT</Dynamic>
+            <Navigation>sal_s_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl&quot;:19:2:19:8|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl&quot;:22:16:22:17|Referenced variable bb is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Referenced variable bb is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl&quot;:22:11:22:12|Referenced variable aa is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Alejandro\Desktop\5to semestre\Arquitectura de Computadoras\Practicas de Entrenamiento\sumadorLibreria\sumador.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Referenced variable aa is not in sensitivity list.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

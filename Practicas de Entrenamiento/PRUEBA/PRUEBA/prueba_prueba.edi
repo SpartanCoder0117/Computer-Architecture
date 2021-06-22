@@ -1,0 +1,190 @@
+(edif prueba00
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2017 8 20 18 47 56)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "L-2016.09L, mapper maplat, Build 1612R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell OB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell IB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell prueba00 (cellType GENERIC)
+       (view prueba0 (viewType NETLIST)
+         (interface
+           (port (array (rename aa "Aa(7:0)") 8) (direction INPUT))
+           (port (array (rename yy "Yy(7:0)") 8) (direction OUTPUT))
+         )
+         (contents
+          (instance VCC (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GND (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (instance (rename Yy_pad_7 "Yy_pad[7]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_6 "Yy_pad[6]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_5 "Yy_pad[5]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_4 "Yy_pad[4]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_3 "Yy_pad[3]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_2 "Yy_pad[2]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_1 "Yy_pad[1]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Yy_pad_0 "Yy_pad[0]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_7 "Aa_pad[7]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_6 "Aa_pad[6]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_5 "Aa_pad[5]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_4 "Aa_pad[4]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_3 "Aa_pad[3]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_2 "Aa_pad[2]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_1 "Aa_pad[1]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename Aa_pad_0 "Aa_pad[0]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (net VCC (joined
+           (portRef Z (instanceRef VCC))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net (rename Aa_c_0 "Aa_c[0]") (joined
+           (portRef O (instanceRef Aa_pad_0))
+           (portRef I (instanceRef Yy_pad_0))
+          ))
+          (net (rename Aa_0 "Aa[0]") (joined
+           (portRef (member aa 7))
+           (portRef I (instanceRef Aa_pad_0))
+          ))
+          (net (rename Aa_c_1 "Aa_c[1]") (joined
+           (portRef O (instanceRef Aa_pad_1))
+           (portRef I (instanceRef Yy_pad_1))
+          ))
+          (net (rename Aa_1 "Aa[1]") (joined
+           (portRef (member aa 6))
+           (portRef I (instanceRef Aa_pad_1))
+          ))
+          (net (rename Aa_c_2 "Aa_c[2]") (joined
+           (portRef O (instanceRef Aa_pad_2))
+           (portRef I (instanceRef Yy_pad_2))
+          ))
+          (net (rename Aa_2 "Aa[2]") (joined
+           (portRef (member aa 5))
+           (portRef I (instanceRef Aa_pad_2))
+          ))
+          (net (rename Aa_c_3 "Aa_c[3]") (joined
+           (portRef O (instanceRef Aa_pad_3))
+           (portRef I (instanceRef Yy_pad_3))
+          ))
+          (net (rename Aa_3 "Aa[3]") (joined
+           (portRef (member aa 4))
+           (portRef I (instanceRef Aa_pad_3))
+          ))
+          (net (rename Aa_c_4 "Aa_c[4]") (joined
+           (portRef O (instanceRef Aa_pad_4))
+           (portRef I (instanceRef Yy_pad_4))
+          ))
+          (net (rename Aa_4 "Aa[4]") (joined
+           (portRef (member aa 3))
+           (portRef I (instanceRef Aa_pad_4))
+          ))
+          (net (rename Aa_c_5 "Aa_c[5]") (joined
+           (portRef O (instanceRef Aa_pad_5))
+           (portRef I (instanceRef Yy_pad_5))
+          ))
+          (net (rename Aa_5 "Aa[5]") (joined
+           (portRef (member aa 2))
+           (portRef I (instanceRef Aa_pad_5))
+          ))
+          (net (rename Aa_c_6 "Aa_c[6]") (joined
+           (portRef O (instanceRef Aa_pad_6))
+           (portRef I (instanceRef Yy_pad_6))
+          ))
+          (net (rename Aa_6 "Aa[6]") (joined
+           (portRef (member aa 1))
+           (portRef I (instanceRef Aa_pad_6))
+          ))
+          (net (rename Aa_c_7 "Aa_c[7]") (joined
+           (portRef O (instanceRef Aa_pad_7))
+           (portRef I (instanceRef Yy_pad_7))
+          ))
+          (net (rename Aa_7 "Aa[7]") (joined
+           (portRef (member aa 0))
+           (portRef I (instanceRef Aa_pad_7))
+          ))
+          (net (rename Yy_0 "Yy[0]") (joined
+           (portRef O (instanceRef Yy_pad_0))
+           (portRef (member yy 7))
+          ))
+          (net (rename Yy_1 "Yy[1]") (joined
+           (portRef O (instanceRef Yy_pad_1))
+           (portRef (member yy 6))
+          ))
+          (net (rename Yy_2 "Yy[2]") (joined
+           (portRef O (instanceRef Yy_pad_2))
+           (portRef (member yy 5))
+          ))
+          (net (rename Yy_3 "Yy[3]") (joined
+           (portRef O (instanceRef Yy_pad_3))
+           (portRef (member yy 4))
+          ))
+          (net (rename Yy_4 "Yy[4]") (joined
+           (portRef O (instanceRef Yy_pad_4))
+           (portRef (member yy 3))
+          ))
+          (net (rename Yy_5 "Yy[5]") (joined
+           (portRef O (instanceRef Yy_pad_5))
+           (portRef (member yy 2))
+          ))
+          (net (rename Yy_6 "Yy[6]") (joined
+           (portRef O (instanceRef Yy_pad_6))
+           (portRef (member yy 1))
+          ))
+          (net (rename Yy_7 "Yy[7]") (joined
+           (portRef O (instanceRef Yy_pad_7))
+           (portRef (member yy 0))
+          ))
+         )
+        (property orig_inst_of (string "prueba00"))
+       )
+    )
+  )
+  (design prueba00 (cellRef prueba00 (libraryRef work))
+	(property PART (string "lcmxo2_7000he-5") ))
+)
